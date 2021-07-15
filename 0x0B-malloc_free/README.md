@@ -1,13 +1,17 @@
-Why C programming is awesome
-Who invented C
-Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
-What happens when you type gcc main.c
-What is an entry point
-What is main
-How to print text using printf, puts and putchar
-How to get the size of a specific type using the unary operator sizeof
-How to compile using gcc
-What is the default program name when compiling with gcc
-What is the official Holberton C coding style and how to check your code with betty-style
-How to find the right header to include in your source code when using a standard library function
-How does the main function influence the return value of the program
+# This directory contains programs that do the following
+
+0-create_array.c - creates an array of chars, and initializes it with a specific char.
+
+1-strdup.c -  returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+
+2-str_concat.c - a function that concatenates two strings.
+
+3-alloc_grid.c - a function that returns a pointer to a 2 dimensional array of integers.
+
+4-free_grid.c -  a function that frees a 2 dimensional grid previously created by your alloc_grid function.
+
+100-argstostr.c - a function that concatenates all the arguments of your program
+
+101-strtow.c - a function that splits a string into words.
+
+holberton.h  contains all the prototypes.
