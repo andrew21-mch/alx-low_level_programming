@@ -1,6 +1,12 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+<<<<<<< HEAD
+=======
+#include <stdio.h>
+#include <stdlib.h>
+
+>>>>>>> faf0c102c099b75253f5bc9aa69836a8525a1f71
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -22,4 +28,8 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
+<<<<<<< HEAD
 #endif /*"HOLBERTON_H*/
+=======
+#endif /* HOLBERTON_H */
+>>>>>>> faf0c102c099b75253f5bc9aa69836a8525a1f71
